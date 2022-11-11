@@ -3,4 +3,7 @@
     <string name="no_ruangan">No Ruangan</string>
     <string name="kapasitas">Kapasitas</string>
     <string name="simpan">simpan</string>
+    <string name="nama_ruangan">Nama Ruangan</string>
+    <string name="detail_ruangan">Detail Ruangan</string>
+    <string name="daftar_ruangan">Daftar Ruangan</string>
 </resources>

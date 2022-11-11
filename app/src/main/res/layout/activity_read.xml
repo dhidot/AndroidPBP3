@@ -4,27 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bggradient"
     android:orientation="vertical"
     android:padding="16dp"
     tools:context=".ReadActivity">
 
+<!--    <TextView-->
+<!--        android:id="@+id/textView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginBottom="16dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:text="@string/detail_ruangan"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="32sp" />-->
     <TextView
         android:id="@+id/NamaRuangan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/no_ruangan"
+        android:layout_gravity="center"
+        android:hint="@string/nama_ruangan"
         android:textColor="@android:color/black"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/Kapasitas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
         android:hint="@string/kapasitas"
         android:textColor="@android:color/black"
-        android:layout_marginTop="23dp"
-        android:textSize="20sp"
-        android:textStyle="bold"/>
-
+        android:textSize="32sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
